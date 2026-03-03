@@ -262,7 +262,7 @@ function ApplyForm() {
         const data = await res.json();
         throw new Error(data.error || "Submission failed.");
       }
-
+      window.scrollTo({ top: 0, behavior: "smooth" });
       setStatus("success");
     } catch (err: unknown) {
       setStatus("error");
