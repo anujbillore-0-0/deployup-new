@@ -281,20 +281,12 @@ function ApplyForm() {
               <CheckCircle2 size={32} className="text-primary" />
             </div>
             <h2 className="text-2xl font-bold text-foreground mb-3">Application Submitted</h2>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+              Thank you for applying to DeployUp. We've received your application and will review it carefully. Our recruitment process includes a profile screening, followed by a technical assessment, and a final interview round. You'll hear from us if your profile moves forward.
+            </p>
             <p className="text-muted-foreground text-sm leading-relaxed mb-8">
-              Thank you for applying to DeployUp. We've received your application and will
-              review it carefully. Our recruitment process includes a profile screening,
-              followed by a technical assessment, and a final interview round. You'll hear
-              from us if your profile moves forward. In the meantime, stay updated on
-              company news, open roles, and announcements by following us on{" "}
-              
-                href="https://www.linkedin.com/company/deployup/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline underline-offset-2 hover:opacity-80 transition-opacity"
-              >
-                LinkedIn
-              </a>
+              In the meantime, stay updated on company news and announcements by following us on{" "}
+              <a href="https://www.linkedin.com/company/deployup/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:opacity-80 transition-opacity">LinkedIn</a>.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button asChild variant="outline" className="rounded-full px-6 font-semibold">
