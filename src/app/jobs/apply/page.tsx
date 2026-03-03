@@ -295,7 +295,6 @@ function ApplyForm() {
               >
                 LinkedIn
               </a>
-              .
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button asChild variant="outline" className="rounded-full px-6 font-semibold">
